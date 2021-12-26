@@ -11,7 +11,7 @@ def user_marker():
         print("Player1 choose {}".format(marker_list[1]))
         print("Player2 choose {}\n\n".format(marker_list[0]))
     else:
-        print("Choosen marker not Allowed")
+        print("Chosen marker not Allowed")
 
     return marker
 
@@ -54,7 +54,7 @@ def game_launch(kwargs):
 def display(row1,row2,row3,pos,kwargs,check_list,current_player):
 
     if int(pos) in check_list:
-        print ("Already choosen, Select different position\n")
+        print ("Already chosen, Select different position\n")
         return current_player
     else:
         if pos == '1':
